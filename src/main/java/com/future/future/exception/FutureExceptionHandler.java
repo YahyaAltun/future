@@ -1,6 +1,6 @@
-package com.future.exception;
+package com.future.future.exception;
 
-import com.future.exception.message.ApiResponseError;
+import com.future.future.exception.message.ApiResponseError;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

@@ -1,4 +1,4 @@
-package com.future;
+package com.future.future.future;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

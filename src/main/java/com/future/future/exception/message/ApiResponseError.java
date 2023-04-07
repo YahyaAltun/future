@@ -1,4 +1,4 @@
-package com.future.exception.message;
+package com.future.future.exception.message;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.http.HttpStatus;
@@ -17,8 +17,12 @@ public class ApiResponseError {
         timestamp=LocalDateTime.now();
     }
 
-    public ApiResponseError(HttpStatus status, String message, String requestURI){
+    public ApiResponseError(HttpStatus status){
+        this();
         this.status=status;
+    }
+    public ApiResponseError(HttpStatus status, String message, String requestURI){
+        this(status);
         this.message=message;
         this.requestURI=requestURI;
     }

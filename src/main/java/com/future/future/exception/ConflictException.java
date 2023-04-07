@@ -1,4 +1,4 @@
-package com.future.exception;
+package com.future.future.exception;
 
 public class ConflictException extends RuntimeException{
     public ConflictException(String message) {
