@@ -32,4 +32,10 @@ public class FutureExceptionHandler extends ResponseEntityExceptionHandler {
         ApiResponseError error = new ApiResponseError(HttpStatus.BAD_REQUEST, ex.getMessage(), request.getDescription(false));
         return buildResponseEntity(error);
     }
+
+    @ExceptionHandler(RuntimeException.class)
+    protected ResponseEntity<Object> handleGeneralException(RuntimeException ex, WebRequest request){
+        ApiResponseError error = new ApiResponseError(HttpStatus.INTERNAL_SERVER_ERROR, ex.getMessage(), request.getDescription(false));
+        return buildResponseEntity(error);
+    }
 }
