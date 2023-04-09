@@ -26,7 +26,7 @@ public class ProductDTO {
     @NotNull(message = "Please provide product price")
     private Integer price;
 
-    @Size(max = 300, message = "Your description cannot exceed ${value} characters")
+    @Size(max = 300, message = "Your description cannot exceed 300 characters")
     @NotNull(message = "Please provide your address")
     private String notes;
 

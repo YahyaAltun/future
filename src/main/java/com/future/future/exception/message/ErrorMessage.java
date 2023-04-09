@@ -9,4 +9,5 @@ public final class ErrorMessage {
 
     public final static String NOT_PERMITTED_METHOD_MESSAGE="You dont have any permission to change thi value";
     public static final String IMAGE_NOT_FOUND_MESSAGE = "ImageFile with id %s not found";
+    public static final String PRODUCT_NOT_FOUND_MESSAGE = "Product with id %d not found";
 }
