@@ -1,14 +1,13 @@
 package com.future.future.controller;
 
-import com.future.future.dto.request.LoginRequest;
-import com.future.future.dto.request.RegisterRequest;
+import com.future.future.security.jwt.request.LoginRequest;
+import com.future.future.security.jwt.request.RegisterRequest;
 import com.future.future.dto.response.FutureResponse;
 import com.future.future.dto.response.LoginResponse;
 import com.future.future.dto.response.ResponseMessage;
 import com.future.future.security.jwt.JwtUtils;
 import com.future.future.service.UserService;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -16,7 +15,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;

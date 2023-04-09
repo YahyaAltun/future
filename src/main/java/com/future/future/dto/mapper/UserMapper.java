@@ -2,7 +2,7 @@ package com.future.future.dto.mapper;
 
 import com.future.future.domain.User;
 import com.future.future.dto.UserDTO;
-import com.future.future.dto.request.RegisterRequest;
+import com.future.future.security.jwt.request.RegisterRequest;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

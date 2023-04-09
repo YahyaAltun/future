@@ -1,8 +1,8 @@
 package com.future.future.controller;
 
 import com.future.future.dto.UserDTO;
-import com.future.future.dto.request.UpdatePasswordRequest;
-import com.future.future.dto.request.UserUpdateRequest;
+import com.future.future.security.jwt.request.UpdatePasswordRequest;
+import com.future.future.security.jwt.request.UserUpdateRequest;
 import com.future.future.dto.response.FutureResponse;
 import com.future.future.dto.response.ResponseMessage;
 import com.future.future.service.UserService;
