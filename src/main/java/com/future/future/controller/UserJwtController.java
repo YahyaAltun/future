@@ -1,7 +1,7 @@
 package com.future.future.controller;
 
-import com.future.future.security.jwt.request.LoginRequest;
-import com.future.future.security.jwt.request.RegisterRequest;
+import com.future.future.dto.request.LoginRequest;
+import com.future.future.dto.request.RegisterRequest;
 import com.future.future.dto.response.FutureResponse;
 import com.future.future.dto.response.LoginResponse;
 import com.future.future.dto.response.ResponseMessage;

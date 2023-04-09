@@ -617,3 +617,33 @@
 2023-04-09 03:59:41,044 INFO  [http-nio-8099-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-04-09 03:59:41,048 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
 2023-04-09 03:59:41,051 INFO  [http-nio-8099-exec-1] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 2 ms
+2023-04-09 04:15:18,863 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-09 04:15:18,928 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-04-09 04:15:18,969 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2023-04-09 04:45:58,878 INFO  [restartedMain] com.future.future.FutureApplication:Starting FutureApplication using Java 11.0.13 on DESKTOP-GFOC2B8 with PID 11040 (C:\Users\Yahya\IdeaProjects\future\target\classes started by Yahya in C:\Users\Yahya\IdeaProjects\future)
+2023-04-09 04:45:58,885 INFO  [restartedMain] com.future.future.FutureApplication:No active profile set, falling back to 1 default profile: "default"
+2023-04-09 04:45:59,039 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09 04:45:59,040 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09 04:46:02,636 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-09 04:46:02,896 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 238 ms. Found 4 JPA repository interfaces.
+2023-04-09 04:46:04,742 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8099 (http)
+2023-04-09 04:46:04,762 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-04-09 04:46:04,763 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-09 04:46:04,934 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-04-09 04:46:04,935 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 5893 ms
+2023-04-09 04:46:05,289 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-09 04:46:05,386 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-04-09 04:46:05,674 INFO  [restartedMain] org.hibernate.annotations.common.Version:HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-09 04:46:05,842 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-04-09 04:46:06,172 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-04-09 04:46:06,202 INFO  [restartedMain] org.hibernate.dialect.Dialect:HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-09 04:46:07,888 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-09 04:46:07,899 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-09 04:46:08,712 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-09 04:46:09,390 INFO  [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain:Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61958f36, org.springframework.security.web.context.SecurityContextPersistenceFilter@3591cde4, org.springframework.security.web.header.HeaderWriterFilter@6867e40e, org.springframework.security.web.authentication.logout.LogoutFilter@6d3d1885, com.future.future.security.jwt.AuthTokenFilter@5d7f08bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c1c2f48, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16ca5950, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34335686, org.springframework.security.web.session.SessionManagementFilter@7cb11623, org.springframework.security.web.access.ExceptionTranslationFilter@16f1c045, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f0ff267]
+2023-04-09 04:46:10,427 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-04-09 04:46:10,531 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8099 (http) with context path ''
+2023-04-09 04:46:10,552 INFO  [restartedMain] com.future.future.FutureApplication:Started FutureApplication in 14.007 seconds (JVM running for 17.722)
+2023-04-09 04:46:35,033 INFO  [http-nio-8099-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-09 04:46:35,034 INFO  [http-nio-8099-exec-2] org.springframework.web.servlet.DispatcherServlet:Initializing Servlet 'dispatcherServlet'
+2023-04-09 04:46:35,036 INFO  [http-nio-8099-exec-2] org.springframework.web.servlet.DispatcherServlet:Completed initialization in 2 ms

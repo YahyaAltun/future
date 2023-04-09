@@ -1,4 +1,4 @@
-package com.future.future.security.jwt.request;
+package com.future.future.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
